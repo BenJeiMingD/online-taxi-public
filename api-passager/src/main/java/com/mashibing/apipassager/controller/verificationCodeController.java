@@ -17,7 +17,7 @@ public class verificationCodeController {
     public String verificationCode(@RequestBody VerificationCodeDTO verificationCodeDTO) {
         //传入实体类，用实体类get字段
         String passengerPhone = verificationCodeDTO.getPassengerPhone();
-
+        System.out.println("passengerPhone = " + passengerPhone);
         return verificationCodeService.generatorCode(passengerPhone);
     }
 }
