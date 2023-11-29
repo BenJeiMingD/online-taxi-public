@@ -1,0 +1,4 @@
+# Project exclude paths
+/api-passager/target/
+/interinal-common/target/
+/target/
