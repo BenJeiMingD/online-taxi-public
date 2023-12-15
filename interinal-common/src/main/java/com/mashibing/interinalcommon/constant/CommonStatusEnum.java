@@ -11,6 +11,10 @@ public enum CommonStatusEnum {
      */
     SUCCESS(1,"success"),
     /**
+     * 验证码错误
+     */
+    VERIFICTION_CODE_ERROR(1099,"验证码不正确"),
+    /**
      * 失败
      */
     FAIL(0,"fail")

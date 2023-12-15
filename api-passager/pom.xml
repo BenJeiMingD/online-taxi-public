@@ -22,11 +22,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>com.mashibing</groupId>
-            <version>1.0-SNAPSHOT</version>
-            <artifactId>interinal-common</artifactId>
-        </dependency>
+
         <!--and nacos-->
         <dependency>
                 <groupId>com.alibaba.cloud</groupId>
@@ -43,5 +39,12 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
+
+        <!--加入redis 缓存-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
     </dependencies>
 </project>

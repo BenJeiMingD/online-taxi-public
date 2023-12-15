@@ -18,7 +18,11 @@ public class ResponseResult <T>{
     private String message;
 
     private T data;
+    public static <T> ResponseResult success(){
 
+        // ResponseResult <T> new 一个这个方法，传参 可变参数
+        return new ResponseResult().setCode(CommonStatusEnum.SUCCESS.getCode()).setMessage(CommonStatusEnum.SUCCESS.getValue());
+    }
 
     public static <T> ResponseResult success(T data){
 
